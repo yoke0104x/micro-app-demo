@@ -1,0 +1,23 @@
+
+.ul{
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid #e8e8e8;
+    align-items: center;
+    justify-content: center;
+
+    li{
+        list-style: none;
+        padding: 0 20px;
+
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+
+        .active{
+            color: red;
+        }
+    }
+}
+
